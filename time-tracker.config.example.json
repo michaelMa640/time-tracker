@@ -1,0 +1,45 @@
+{
+  "BaseToken": "REPLACE_WITH_YOUR_LARK_BASE_TOKEN",
+  "VerifiedAt": "2026-04-22",
+  "Tables": {
+    "Detail": {
+      "Id": "REPLACE_WITH_DETAIL_TABLE_ID",
+      "Key": "time_tracker_detail",
+      "FieldIds": {
+        "Category": "REPLACE_WITH_FIELD_ID",
+        "ValidationStatus": "REPLACE_WITH_FIELD_ID",
+        "TaskName": "REPLACE_WITH_FIELD_ID",
+        "Date": "REPLACE_WITH_FIELD_ID",
+        "BatchId": "REPLACE_WITH_FIELD_ID",
+        "StartTime": "REPLACE_WITH_FIELD_ID",
+        "SourceType": "REPLACE_WITH_FIELD_ID",
+        "EndTime": "REPLACE_WITH_FIELD_ID",
+        "DateKey": "REPLACE_WITH_FIELD_ID"
+      },
+      "MissingFields": [
+        "RevisionNote"
+      ]
+    },
+    "Stats": {
+      "Id": "REPLACE_WITH_STATS_TABLE_ID",
+      "Key": "daily_time_stats",
+      "FieldIds": {
+        "StatsSource": "REPLACE_WITH_FIELD_ID",
+        "AnomalyFlag": "REPLACE_WITH_FIELD_ID",
+        "Date": "REPLACE_WITH_FIELD_ID",
+        "StudyHours": "REPLACE_WITH_FIELD_ID",
+        "WorkRatio": "REPLACE_WITH_FIELD_ID",
+        "WorkHours": "REPLACE_WITH_FIELD_ID",
+        "StatsVersion": "REPLACE_WITH_FIELD_ID",
+        "RebuiltAt": "REPLACE_WITH_FIELD_ID",
+        "StudyRatio": "REPLACE_WITH_FIELD_ID",
+        "FunHours": "REPLACE_WITH_FIELD_ID",
+        "FunRatio": "REPLACE_WITH_FIELD_ID",
+        "StatusValue": "REPLACE_WITH_FIELD_ID",
+        "DateKey": "REPLACE_WITH_FIELD_ID",
+        "Feeling": "REPLACE_WITH_FIELD_ID"
+      },
+      "MissingFields": []
+    }
+  }
+}
